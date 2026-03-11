@@ -4,6 +4,11 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +20,7 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install resume & theme
         run: npm install -g resumed jsonresume-theme-macchiato
@@ -31,4 +37,4 @@ jobs:
           git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
           git add -A
           git commit -m "Update gh-pages with new resume" || exit 0
-          git push origin gh-pages
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
