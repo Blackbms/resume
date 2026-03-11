@@ -3,27 +3,27 @@
         "theme": "macchiato"
     },
     "basics": {
-        "name": "Daniel Suhr",
-        "label": "Senior Software Engineer | Engineering Leader | ML & DevOps Enthusiast",
-        "picture": "https://avatars.githubusercontent.com/u/12955119?v=4",
-        "email": "danielmsuhr@gmail.com",
-        "url": "https://siryessuhr.github.io/",
+        "name": "Matt Blackburn",
+        "label": "Embedded Software Engineer, DEVOPS Engineer",
+        "picture": "",
+        "email": "matt@theblackburns.us",
+        "url": "https://blackbms.github.io/",
         "summary": "Engineering leader and senior software developer with a proven track record of managing teams, driving tooling adoption, and leading full lifecycle delivery of internal developer platforms. Adept at mentoring engineers, aligning cross-functional teams, and translating organizational needs into scalable Python solutions. Strong communicator and systems thinker with experience guiding DevOps and automation strategy for large engineering organizations. Passionate about enabling developer success through thoughtful process, modern tooling, and collaborative leadership.",
         "location": {
-            "city": "Denver Metro Area",
-            "region": "Colorado",
+            "city": "Clio",
+            "region": "Michigan",
             "countryCode": "US"
         },
         "profiles": [
             {
                 "network": "GitHub",
-                "username": "siryessuhr",
-                "url": "https://github.com/siryessuhr"
+                "username": "blackbms",
+                "url": "https://github.com/blackbms"
             },
             {
                 "network": "LinkedIn",
                 "username": "siryessuhr",
-                "url": "https://www.linkedin.com/in/siryessuhr/"
+                "url": "https://www.linkedin.com/in/matt-blackburn-1945671/"
             }
         ]
     },
@@ -35,8 +35,6 @@
             "url": "https://www.ford.com/",
             "startDate": "2025-01-01",
             "highlights": [
-                "Built an LLM-powered chatbot using RAG best practices to answer questions about AUTOSAR standards documentation. Leveraged Elastic vector databases, LangChain, Chainlit, and GCP Cloud Run to deploy the application broadly across development and architecture teams. Used GitHub Copilot (agent mode) to assist in rapid prototyping and implementation.",
-                "Collaborated with the architecture team in Brazil to build a Jira issue debugger using Atlassian APIs, Elastic, and LangChain to accelerate root cause analysis of automotive test issues."
             ]
         },
         {
@@ -48,10 +46,6 @@
             "endDate": "2024-12-31",
             "summary": "Software development lead of internal tools for vehicle performance & latency analysis",
             "highlights": [
-                "Architected a full-stack solution with FastAPI (Python) backend and Next.js frontend to empower engineers to model and simulate vehicle latency impacts. Emphasized modularity and reusability across teams.",
-                "Led stakeholder discovery and requirement gathering to ensure automation efforts aligned with real-world engineering workflows.",
-                "Integrated OAuth2-based Entra ID authentication and deployed to GCP Cloud Run with GitHub Actions CI/CD.",
-                "Mentored junior developers on full-stack engineering, including API design, modular backend logic, and frontend-backend integration."
             ]
         },
         {
@@ -63,14 +57,6 @@
             "endDate": "2024-06-01",
             "summary": "Automation lead for organization of 100+ vehicle systems engineers",
             "highlights": [
-                "Led and mentored a team of five software engineers that collaborated with other development teams to define end-to-end automation workflows and introduce automotive engineers to software development practices.",
-                "Collaborated with the architecture tools team to implement a Python CLI tool replacing a legacy vendor-sourced toolchain, saving Ford over $1 million and enabling programmatic testing of an AUTOSAR-compliant vehicle architecture.",
-                "Architected CI/CD workflows for critical vehicle deliverables using GitHub Actions.",
-                "Coached teams on software, tooling, workflow, and design best practices for streamlined value delivery.",
-                "Facilitated software development training courses in Python (Clean Code, SOLID Principles).",
-                "Designed and implemented developer workflows for a custom automotive Linux distribution using Yocto and Bitbake.",
-                "Deployed and managed infrastructure in GCP using Terraform.",
-                "Implemented observability for internal tools using the Elastic Stack to improve debugging and track version usage across teams."
             ]
         },
         {
@@ -82,83 +68,38 @@
             "endDate": "2022-11-01",
             "summary": "Automation tools lead",
             "highlights": [
-                "Designed and implemented automation workflows for an instruction-level simulation tool to foster a shift-left culture and enforce code quality standards.",
-                "Managed bare-metal high-performance compute infrastructure for vehicle embedded software simulations using Ansible."
             ]
         },
         {
-            "name": "Alchemer, Inc",
-            "company": "Alchemer, Inc",
-            "position": "Site Reliability Engineer",
-            "url": "https://www.alchemer.com/",
-            "startDate": "2021-04-01",
-            "endDate": "2021-11-01",
-            "summary": "Constructed a new AWS environment while maintaining an existing environment without access to historical documentation or tribal knowledge.",
-            "highlights": [
-                "Reverse-engineered infrastructure state across multiple AWS accounts to ensure continuity and secure migration."
-            ]
-        },
-        {
-            "name": "NetApp, Inc",
-            "company": "NetApp, Inc",
+            "name": "Visteon",
+            "company": "Visteon",
             "position": "Senior Software Engineer",
-            "url": "https://www.netapp.com",
-            "startDate": "2018-05-01",
-            "endDate": "2021-03-01",
-            "summary": "Tech lead for SAFe System Team responsible for software delivery pipeline health",
+            "url": "https://www.visteon.com",
+            "startDate": "",
+            "endDate": "",
+            "summary": "",
             "highlights": [
-                "Spearheaded efforts to collect, display, and improve decision-making with DORA DevOps Metrics (change failure rate, lead time, mean time to recovery, and deployment frequency).",
-                "Improved stability of a Jenkins pipeline for a custom Gentoo Linux distribution, enabling daily builds and release-on-demand.",
-                "Fulfilled SAFe Product Owner responsibilities: maintained backlog, defined features/stories/bugs, and collaborated with architects and product managers to expand automation capabilities."
             ]
         },
         {
-            "name": "NetApp - SolidFire",
-            "company": "NetApp - SolidFire",
-            "position": "Software Developer in Test",
-            "url": "https://www.netapp.com",
-            "startDate": "2017-03-01",
-            "endDate": "2018-05-01",
-            "summary": "Test automation engineer and Agile ceremony facilitator",
+            "name": "Johnson Controls",
+            "company": "Johnson Controls",
+            "position": "Senior Software Engineer",
+            "url": "https://www.johnsoncontrols.com",
+            "startDate": "",
+            "endDate": "",
+            "summary": "",
             "highlights": [
-                "Wrote automated tests for low-level network and SSD platform capabilities using Python and Bash.",
-                "Converted manually documented test cases into Python for streamlined regression testing.",
-                "Collaborated with teams in India to build test services, simplifying and sharing qualification tests with vendors and partners.",
-                "Facilitated daily stand-ups, retrospectives, and planning meetings as a SAFe Scrum Master."
             ]
-        },
-        {
-            "name": "NetApp, Inc (formerly SolidFire)",
-            "company": "NetApp, Inc (formerly SolidFire)",
-            "position": "Hardware Reliability Engineer",
-            "url": "https://www.netapp.com",
-            "startDate": "2015-10-01",
-            "endDate": "2017-03-01",
-            "summary": "Failure analysis and field reliability engineer",
-            "highlights": [
-                "Performed first-level failure analysis of defective rack servers.",
-                "Tracked systemic failure rates and collaborated with vendors on escalations.",
-                "Automated generation of failure rate reports using Python, enabling identification and remediation of faulty SSD batches."
-            ]
-        },
-        {
-            "name": "Seagate Technology",
-            "company": "Seagate Technology",
-            "position": "Customer Quality Failure Analysis Engineer",
-            "url": "https://www.seagate.com",
-            "startDate": "2015-10-01",
-            "endDate": "2017-03-01",
-            "summary": "Performed detailed failure analysis of spinning disk drives",
-            "highlights": []
         }
     ],
     "volunteer": [],
     "education": [
         {
-            "institution": "Colorado School of Mines",
-            "area": "Electrical Engineering",
+            "institution": "Michigan Technological University",
+            "area": "Computer Science",
             "studyType": "Bachelor",
-            "endDate": "2012-12-14"
+            "endDate": ""
         }
     ],
     "awards": [],
@@ -170,57 +111,29 @@
             "level": "Proficient",
             "keywords": [
                 "Python",
-                "JavaScript",
-                "TypeScript"
+                "C"
             ]
         },
         {
             "name": "Languages",
             "level": "Familiar",
             "keywords": [
-                "Bash",
-                "Golang",
-                "Rust"
-            ]
-        },
-        {
-            "name": "Machine Learning & AI",
-            "keywords": [
-                "LangChain",
-                "RAG (Retrieval Augmented Generation)",
-                "LLM Prompt Engineering",
-                "Chainlit",
-                "Streamlit",
-                "GCP BigQuery"
+                "Bash"
             ]
         },
         {
             "name": "Tools",
             "keywords": [
+                "Git/GitHub",
                 "GitHub Actions",
                 "Jenkins",
                 "Docker",
-                "Kubernetes",
-                "Ansible",
-                "Terraform",
-                "Google Cloud",
-                "AWS",
                 "GitHub Copilot"
             ]
         },
         {
             "name": "Competencies",
             "keywords": [
-                "DevOps",
-                "Value Streams",
-                "Process Automation",
-                "Software Testing",
-                "Scaled Agile / SAFe",
-                "Concise communication",
-                "Critical & creative thinking",
-                "Leadership as an activity",
-                "Cross-team collaboration",
-                "Automation solution design"
             ]
         }
     ],
